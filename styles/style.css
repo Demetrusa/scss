@@ -34,3 +34,36 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+.section-bg {
+  background-color: aqua; }
+  .section-bg .container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto; }
+    .section-bg .container .flex-wraper {
+      display: flex;
+      justify-content: space-between; }
+      .section-bg .container .flex-wraper .test-1 {
+        font-size: 25px;
+        color: red; }
+      .section-bg .container .flex-wraper .test-2 {
+        font-size: 20px;
+        color: blue; }
+
+.section-bg {
+  background-color: aqua; }
+  .section-bg .container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto; }
+    .section-bg .container .flex-wraper {
+      display: flex;
+      justify-content: space-between; }
+      .section-bg .container .flex-wraper .test-1 {
+        font-size: 150px;
+        color: red;
+        margin-top: 30px;
+        font-family: "Goblin One", cursive; }
+      .section-bg .container .flex-wraper .test-2 {
+        font-size: 20px; }

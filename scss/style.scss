@@ -1,14 +1,37 @@
 @import './base/reset.scss';
 @import './base/variables.scss';
+@import './modules/mixins.scss'
+@import './main/main.scss';
 
 
 
-// p{
-//     color: red;
-//     font-size: 52px;
-//     background-color: royalblue;
-// }
-// img{
-//     width: 500px;
-//     background-repeat: no-repeat;
-// }
+.section-bg{
+    background-color: aqua;
+    .container{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        .flex-wraper{
+            @include d-flex(flex,space-between,center)
+            .test-1{
+                font-size: $size01;
+                color: $color01;
+                margin-top: $padding01;
+                font-family: $font01;
+
+            }
+            .test-2{
+                font-size: $size02;
+                $color02: color02;
+            }
+        }
+    }
+}
+.section-bg2{
+    background-color: $color03;
+    .flex-images{
+        @include d-flex(flex,center, center);
+            
+        }
+    }
+}

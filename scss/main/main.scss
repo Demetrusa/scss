@@ -1,0 +1,21 @@
+.section-bg{
+    background-color: aqua;
+    .container{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        .flex-wraper{
+            display: flex;
+            justify-content: space-between;
+            .test-1{
+                font-size: 25px;
+                color: red;
+
+            }
+            .test-2{
+                font-size: 20px;
+                color: blue;
+            }
+        }
+    }
+}
